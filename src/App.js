@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from './components/Navbar'
 // import Main from './Main';
 import './style.css';
-import TextArea from './TextArea';
-import Contact from './Contact'
-import Content from './Content'
+import TextArea from './components/TextArea' ;
+import Contact from './components/Contact'
+import Content from './components/Content'
 import {HashRouter as Router,Routes,Route} from 'react-router-dom';
 
 
