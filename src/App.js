@@ -15,13 +15,13 @@ export default function App() {
     <Navbar/>
     {/* <Main owner="Deepak's"/> */}
       <Routes>
-        <Route path='/' element={<TextArea/>}></Route>
+        <Route path='/' element={<TextArea/>}/>
       </Routes>
       <Routes>
-        <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
       <Routes>
-        <Route path='/content' element={<Content/>}></Route>
+        <Route path='/content' element={<Content/>}/>
       </Routes>
 
     </Router>
