@@ -5,7 +5,7 @@ import './style.css';
 import TextArea from './TextArea';
 import Contact from './Contact'
 import Content from './Content'
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import {HashRouter as Router,Routes,Route} from 'react-router-dom';
 
 
 export default function App() {
