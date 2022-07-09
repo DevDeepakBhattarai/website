@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "./style.css";
 
 export default function TextArea() {
   const [text, setText] = useState("");
@@ -44,12 +43,7 @@ export default function TextArea() {
     }
     setText(camelCase);
 }
-const wordCounter=()=>{
-  if(document.querySelector('.box').value===""){
-    return 0;
-  }
- else return text.split(' ').length; 
-}
+
 
   return (
     <>

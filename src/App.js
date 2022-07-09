@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 // import Main from './Main';
-import './style.css';
+import './css/style.css';
 import TextArea from './components/TextArea' ;
 import Contact from './components/Contact'
 import Content from './components/Content'
