@@ -6,21 +6,25 @@ export default function TextArea() {
     let newText = text.toUpperCase();
     setText(newText);
   }
+
   const lowerCaseHandler = () => {
     let newText = text.toLowerCase();
     setText(newText);
   }
+
   const copyHandler = () => {
     const text=document.querySelector('textarea');
     text.select();
     navigator.clipboard.writeText(text.value);
   }
+
   const spaceHandler = () => {
     let newTextArray = text.split(/ +/);
     let newText=newTextArray.join(" ");
     setText(newText);
     
   }
+
   const clearHandler=()=>{
     setText("");
   }
@@ -29,7 +33,9 @@ export default function TextArea() {
     setText(e.target.value);
     
   }
+
   const camelCaseHandler=()=>{
+
     if(text.split(/ +/).length<=1){
       console.log("Its already in camel Case");
       return;

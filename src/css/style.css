@@ -61,3 +61,11 @@ ul>li:hover{
     border-radius: 5px;
 
 }
+.NewsDiv{
+    margin-inline-start: 2rem;
+   
+}
+.active{
+    color: blue;
+    background-color: red;
+}
